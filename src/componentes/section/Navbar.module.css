@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+
+.navbar{
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    list-style: none;
+    font-size: 14px;
+}
+
+.navbar li{
+    margin:10px;
+}
+
+ul img{
+    margin-top: 7px;
+}
+
+.navbar li:hover{
+    cursor: pointer;
+    border-bottom: 0.5px solid;
+    color: blue;
+}
